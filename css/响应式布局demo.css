@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 48px;
+    box-sizing: border-box;
+}
+
+#main,
+html,body{
+	width:100%;
+	height:100%}
+		
+
+#main{
+    height: 100%;
+    line-height: 100%;
+}
+
+#main .left{
+    width: 50%;
+    height: 100%;
+	background-color: #FAF7EB;
+	background-image:  url(../nasa.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 50% 100%;
+    float: left;
+}
+#main .center{
+    width: 50%;
+    height: 100%;
+    background-color: #FAF7EB;
+    float: left;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    #main{
+        height: 2800px;
+    }
+	#main .icon_ .icon{
+    position:absolute;left:25%;margin-top: 35%;width: 4000%;
+	}
+	
+    #main .left{
+        float: none;
+        width: 100%;
+        height: 800px;
+		background-attachment:scroll;
+		background-size: 100% 100%;
+    }
+    #main .center{
+        float: none;
+        width: 100%;
+        height: 2000px;
+    }
+
+}

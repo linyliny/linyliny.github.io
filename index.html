@@ -69,6 +69,35 @@
 				FILTER: alpha(opacity=100, finishopacity=0, style=3)
 			}
 
+			#qianming {
+				text-align: center;
+				color: #FFFFFF;
+				font-family: Verdana, Arial, sans-serif;
+				font-weight: 100;
+				font-size: 1em;
+				margin-top: 2%
+			}
+
+			#button1 {
+				position: absolute;
+				margin-left: 15%
+			}
+
+			#button2 {
+				position: absolute;
+				margin-left: 20%
+			}
+
+			#button3 {
+				position: absolute;
+				margin-left: 25%
+			}
+
+			#button4 {
+				position: absolute;
+				margin-left: 30%
+			}
+
 			li {
 				list-style: none;
 				width: 3em;
@@ -88,6 +117,10 @@
 		}
 
 		@media screen and (max-device-width: 400px) {
+			main {
+				margin-left: 0%;
+				margin-top: 0%
+			}
 
 			html,
 
@@ -95,7 +128,8 @@
 				background-color: rgba(255, 254.5, 254.5, 1.00);
 				background-image: url(nasa.jpg);
 				background-repeat: no-repeat;
-				background-size: 100% 100%
+				background-size: 100% 55%;
+				background-attachment: scroll
 			}
 
 			h1 {
@@ -106,6 +140,10 @@
 				font-weight: 100
 			}
 
+			#pic_ {
+				width: 100%;
+			}
+
 			#index {
 				margin-top: 0em;
 			}
@@ -114,11 +152,11 @@
 				position: absolute;
 				font-size: 2em;
 				margin-top: 50%;
-				margin-left: 32%
+				margin-left: 33%
 			}
 
 			#button {
-				margin-top: 5%
+				margin-top: 15%
 			}
 
 			#liny {
@@ -129,9 +167,37 @@
 			}
 
 			#heng1 {
-				margin-top: 140%;
-				margin-left: 80%;
+				margin-top: 70%;
+				margin-left: 33%;
 				FILTER: alpha(opacity=100, finishopacity=0, style=3)
+			}
+
+			#qianming {
+				color: #FFFFFF;
+				font-family: Verdana, Arial, sans-serif;
+				font-weight: 100;
+				font-size: 1em;
+				margin-top: 7%
+			}
+
+			#button1 {
+				position: absolute;
+				margin-left: 13%
+			}
+
+			#button2 {
+				position: absolute;
+				margin-left: 33%
+			}
+
+			#button3 {
+				position: absolute;
+				margin-left: 53%
+			}
+
+			#button4 {
+				position: absolute;
+				margin-left: 73%
 			}
 
 			li {
@@ -157,29 +223,28 @@
 <body>
 	<div id="index">
 
-		<pic>
+		<pic id="pic_">
 			<a href="index.html"><img id="liny" src="liny.png" alt="liny"></a>
 			<h1 id="lxh">刘 霄 汉</h1>
 			<hr id="heng1" width="30%" color="#E6ABC" SIZE="2">
-			<h2
-				style="text-align:center; color: #FFFFFF; font-family:Verdana, Arial, sans-serif; font-weight: 100;font-size: 1em;margin-top: 2%">
+			<h2 id="qianming">
 				我望着夜空中的那点光，在微弱跳动，在一直发亮.
 			</h2>
 			<div id="button">
-				<li style="position:absolute;margin-left: 15%">
+				<li id="button1">
 					<a href="mailto:linylxh@163.com"><img src="image/mail.png" alt="mail" width="85%"
 							style="position:absolute;left:7.5%;margin-top: 9%"></a>
 				</li>
-				<li style="position:absolute;margin-left: 20%">
+				<li id="button2">
 					<a href="https://weibo.com/u/5396753461?topnav=1&wvr=6&topsug=1&is_all=1" target="_blank"><img
 							src="image/weibo.png" alt="weibo" width="85%"
 							style="position:absolute;left:8%;margin-top: 5%"></a>
 				</li>
-				<li style="position:absolute;margin-left: 25%">
+				<li id="button3">
 					<a href="https://music.163.com/#/artist?id=12037158" target="_blank"><img src="image/netease.png"
 							alt="netease" width="70%" style="position:absolute;left:14%;margin-top: 18%"></a>
 				</li>
-				<li style="position:absolute;margin-left: 30%">
+				<li id="button4">
 					<a href="https://github.com/linyliny" target="_blank"><img src="image/github.png" alt="github"
 							width="80%" style="position:absolute;left:10%;margin-top: 15%"></a>
 				</li>
@@ -190,11 +255,12 @@
 		<main>
 			<h3
 				style="text-align:left; color: #847A7B; font-family:Verdana, Arial, sans-serif; font-weight: 500;font-size: 2em">
+				<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 				Profile</h3>
 			<HR align=left width=25% color=#987cb9 SIZE=1>
 			<p style="color: #696969; font-size:1em;">I am <b>Liny</b>. (<b>刘 霄汉</b> in Chinese). <br>你可以叫我 小汉 ~
 				尽管我是一个“山东大汉”...</p>
-			<p style="color: #F5DEB3; font-size:0.7em;">本硕就读于东北大学<br>
+			<p style="color: rgb(253, 156, 253); font-size:0.7em;">本硕就读于东北大学<br>
 				本科为自动化专业<br>自动化 是一个很宽泛的专业<br>所以在此期间我学会了电子竞技、音乐写作与制作、电影鉴赏、中国现代史...<br>甚至还辅修了一些哲学基础 思考了下人生<br>
 				撸代码、编plc、调PID、画电路图什么的，只能算作是当时的兴趣爱好吧~<br>
 				<br>
@@ -204,7 +270,7 @@
 			</p>
 			<p style="color: #696969; font-size:1em;">在这里，我会分享一些自己平时对生活的观察和负能量<br>一些新歌<br>可能还会有一些浅显的技术向分享<br>
 				<b>欢迎光临 ~ </b><br><br><br><br><br></p>
-			<li style="position:absolute;margin-left: 15%">
+			<li style="position:absolute;margin-left: 25%">
 				<a href="blogs.html" style="color: #FFC0CB; font: bold 2.5em/1.5 georgia, sans-serif; text-shadow: 0 0 1px #999, 
                                                       1px 1px 2px #888, 
                                                       2px 2px 2px #777, 
